@@ -1,0 +1,11 @@
+.header{
+    background: #FD739C;
+    color: white;
+}
+h1, h2 {
+    font-family: Helvetica;
+}
+.sect1, .sect2{
+    font-size: 22px;
+    line-height: 34px;
+}
