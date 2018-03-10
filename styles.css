@@ -1,29 +1,76 @@
-header,
-nav {
-    background-color: #FD739C;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+.page {
+    font-family: Roboto, Arial, Helvetica, sans-serif;    
 }
 
-h1,
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
+.delivery {
+    display: flex;
+    align-items: center;
 }
 
-h1 {
+.delivery__text {
+    padding: 0 8px;
     margin: 0;
-    line-height: 60px;
 }
 
-body {
-    font-size: 22px;
-    line-height: 34px;
+.input {
+    line-height: 24px;
+    font-size: 16px;
+    color: #1D1D1D; 
+    padding: 8px 12px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
 }
 
-header {
-    padding: 130px 0 50px 0;
+.input_marker {
+    background: url(./images/marker.svg) no-repeat left center;
+    background-position-x: 8px;
+    padding-left: 24px;
 }
 
-section {
-    padding: 50px 0 0 0;
+.button {
+    border: 1px solid #E0E0E0;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 8px 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    color: #1D1D1D;
+}
+
+.button_primary {
+    background: #262626;
+    color: #FFFFFF;
+    border-color: #262626;
+}
+
+.button_icon {
+    border: none;
+    line-height: normal;
+}
+
+.userbar {
+    display: flex;
+    align-items: center;
+}
+
+.userbar__sign-in,
+.userbar__register {
+    margin-right: 16px;
+}
+
+.header {
+    padding: 16px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.header__container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

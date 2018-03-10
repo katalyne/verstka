@@ -2,41 +2,30 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <title>Урок 5</title>
+        <title>Uber Eats - LESS 1</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
         <link rel="stylesheet" href="./normalize.css">
         <link rel="stylesheet" href="./styles.css">
     </head>
-    <body>
-        <nav>
-            <a href="#">Кто я такой</a>         
-        </nav>
-        <header>
-            <h1>Курс по фронтенду <br>Версия 1.5</h1>
-            <p>Все супер пупер класс</p>
-        </header>        
-        <section>
-            <h2>Кто я такой</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>Ad molestias <a href="#">autem</a> incidunt eius nemo <a href="#">optio</a> dolorem veritas deserunt quaerat?</p>
-            <p>Impedit voluptatem facilis quasi necessitatibus expedita rerum consectetur commodi blanditiis nulla.</p>
-        </section>
-        <section>
-            <h2>Чендж лок к версии 1.5</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Voluptatum quaerat obcaecati, nemo impedit ex, dolorum saepe, repellat eius perferendis facilis temporibus.
-                Quidem cumque quis, totam est accusamus similique. Molestiae, pariatur!</p>
-            <strong>Было</strong>
-            <ul>
-                <li>материалы</li>
-                <li>мыло</li>
-                <li>текст</li>
-            </ul>
-            <strong>Стало</strong>
-            <ul>
-                <li> <img src="https://emojio.ru/images/apple-b/1f525.png" alt=""  width="24px" height="24px"> материалы</li>
-                <li> <img src="https://emojio.ru/images/apple-b/1f525.png" alt=""  width="24px" height="24px"> мыло</li>
-                <li> <img src="https://emojio.ru/images/apple-b/1f525.png" alt=""  width="24px" height="24px"> текст</li>
-            </ul>
-        </section>
+    <body class="page">
+        <div class="header">
+            <div class="header__container">
+                <div class="logo header__logo">
+                    <img src="./images/logo.svg" alt="" class="logo__img">
+                </div>
+                <div class="delivery header__delivery">
+                    <input type="text" class="delivery__time input" value="ASAP">
+                    <p class="delivery__text">to</p>
+                    <input type="text" class="delivery__address input input_marker" value="Cuza Voda 23">
+                </div>
+                <div class="userbar header__userbar">
+                    <button class="userbar__sign-in button">Sign In</button>
+                    <button class="userbar__register button button_primary">Register</button>
+                    <button class="userbar__basket button button_icon"> 
+                        <img src="./images/basket.svg" alt="" class="button__icon">
+                    </button>
+                </div>
+            </div>
+        </div>    
     </body>
 </html>
