@@ -79,3 +79,33 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.search__container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search__input {
+    width: 100%;
+    background: url(./images/search.svg) no-repeat left center;
+    background-position-x: 8px;
+    border: none;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 16px;
+    color: #626262;
+    padding: 16px 16px 16px 35px;
+}
+
+.search__input::-webkit-input-placeholder {
+    color: #626262;
+    opacity: 0.5;
+}
+
+.page__header {
+    margin-bottom: 24px;
+}
