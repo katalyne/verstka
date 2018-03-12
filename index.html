@@ -14,9 +14,11 @@
                     <img src="./images/logo.svg" alt="" class="logo__img">
                 </div>
                 <div class="delivery header__delivery">
-                    <input type="text" class="delivery__time input" value="ASAP">
-                    <p class="delivery__text">to</p>
-                    <input type="text" class="delivery__address input input_marker" value="Cuza Voda 23">
+                    <form action="" method="GET" class="delivery__form">
+                        <input type="text" class="delivery__time input" value="ASAP">
+                        <p class="delivery__text">to</p>
+                        <input type="text" class="delivery__address input input_marker" value="Cuza Voda 23">
+                    </form>
                 </div>
                 <div class="userbar header__userbar">
                     <button class="userbar__sign-in button">Sign In</button>
@@ -29,8 +31,15 @@
         </div> 
         <div class="search page__search">
             <div class="search__container">
-                <input type="text" class="search__input" placeholder="Search for restaurant or cuisine">
+                <form action=""  method="GET" class="search__form">
+                    <input type="text" class="search__input" placeholder="Search for restaurant or cuisine">
+                </form>
             </div>
-        </div>   
+        </div>  
+        <div class="restaurants page__restaurants">
+            <div class="restaurants__container">
+                <h2 class="restaurants__header">Moscow Restaurants</h2>
+            </div>
+        </div>
     </body>
 </html>
