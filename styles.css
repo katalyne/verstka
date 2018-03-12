@@ -2,6 +2,14 @@
     font-family: Roboto, Arial, Helvetica, sans-serif;    
 }
 
+.page__header {
+    margin-bottom: 24px;
+}
+
+.page__restaurants {
+    margin-top: 56px;
+}
+
 .delivery__form {
     display: flex;
     align-items: center;
@@ -111,11 +119,52 @@
     width: 100%;
 }
 
-.page__header {
-    margin-bottom: 24px;
-}
-
 .restaurants__container {
     width: 1200px;
     margin: 0 auto;
+}
+
+.restaurants__header {
+    margin-top: 0;
+    margin-bottom: 16px;
+    line-height: 34px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.restaurants__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.restaurants__card {
+    margin-bottom: 36px;
+}
+
+.card__name {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #1D1D1D;
+    margin: 16px 0 4px 0;
+    
+}
+
+.card__description {
+    line-height: 21px;
+    font-size: 14px;
+    color: #626262;
+    margin: 0 0 4px 0;
+}
+
+.card__estimate {
+    line-height: 21px;
+    font-size: 13px;
+    color: #1D1D1D;
+    margin: 0;
+}
+
+.card__image {
+    display: block;
 }
