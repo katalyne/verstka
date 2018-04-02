@@ -81,8 +81,6 @@
 }
 
 .header__container {
-    width: 1200px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -133,9 +131,7 @@
 }
 
 .restaurants__cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    
 }
 
 .restaurants__card {
